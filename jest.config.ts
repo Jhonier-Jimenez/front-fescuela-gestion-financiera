@@ -32,7 +32,7 @@ const customJestConfig = {
     '!jest.config.ts',
     '!setupTests.ts',
   ],
-  coverageReporters: ['lcov'],
+  coverageReporters: ['cobertura'],
   moduleDirectories: ['node_modules', '<rootDir>/'],
   testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
